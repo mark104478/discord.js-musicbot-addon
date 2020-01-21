@@ -39,7 +39,7 @@ try {
         };
 
         // Help Command options
-        this.help = {
+        this.musichelp = {
           enabled: (options.help == undefined ? true : (options.help && typeof options.help.enabled !== 'undefined' ? options.help && options.help.enabled : true)),
           run: "helpFunction",
           alt: (options && options.help && options.help.alt) || [],
